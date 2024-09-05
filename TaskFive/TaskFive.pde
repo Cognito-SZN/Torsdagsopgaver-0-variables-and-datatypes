@@ -2,6 +2,16 @@
 The code in this sketch will not compile, as it referes to varables which have not yet been declared 
 Please complete task 5 to get this to compile.
 */
+
+int circleSize;                //  5a
+int numberOfCircles;          // 5b
+int x;                        // 5c
+int y;                        // 5c
+
+int counter  =  0;            //5d  
+int rowCounter  =  0;          //5d
+
+
 void setup(){
    size(400,400);
   
@@ -11,7 +21,6 @@ void setup(){
   
 }
 void draw(){
-  
  
   x = circleSize*counter;
   y = circleSize*rowCounter;
